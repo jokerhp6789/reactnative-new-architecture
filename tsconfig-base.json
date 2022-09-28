@@ -1,0 +1,42 @@
+{
+  "extends": "./tsconfig-base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@animated": ["src/animated"],
+      "@animated/*": ["src/animated/*"],
+      "@assets": ["src/assets"],
+      "@assets/*": ["src/assets/*"],
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"],
+      "@configuration": ["src/configuration"],
+      "@configuration/*": ["src/configuration/*"],
+      "@constant": ["src/constant"],
+      "@constant/*": ["src/constant/*"],
+      "@context": ["src/context"],
+      "@context/*": ["src/context/*"],
+      "@hooks": ["src/hooks"],
+      "@hooks/*": ["src/hooks/*"],
+      "@interfaces": ["src/interfaces"],
+      "@interfaces/*": ["src/interfaces/*"],
+      "@navigation": ["src/navigation"],
+      "@navigation/*": ["src/navigation/*"],
+      "@languages": ["src/languages"],
+      "@languages/*": ["src/languages/*"],
+      "@network": ["src/network"],
+      "@network/*": ["src/network/*"],
+      "@schemas": ["src/schemas"],
+      "@schemas/*": ["src/schemas/*"],
+      "@screens": ["src/screens"],
+      "@screens/*": ["src/screens/*"],
+      "@storage": ["src/storage"],
+      "@storage/*": ["src/storage/*"],
+      "@store": ["src/store"],
+      "@store/*": ["src/store/*"],
+      "@styles": ["src/styles"],
+      "@styles/*": ["src/styles/*"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"]
+    }
+  }
+}
