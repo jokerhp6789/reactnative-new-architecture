@@ -3,8 +3,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "@screens/home/HomeScreen";
 import Map from "@screens/map/Map";
 import React from "react";
-import { Text } from "react-native";
-import { View } from "react-native";
 import { IRoutesParamList } from "./interface/IRoutes";
 
 const Stack = createNativeStackNavigator<IRoutesParamList>();
