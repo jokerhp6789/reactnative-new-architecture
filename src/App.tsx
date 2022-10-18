@@ -29,8 +29,11 @@ const App = () => {
         <SafeAreaProvider>
             <NavigationContainer>
                 {/* <ApolloProvider client={API.instance}> */}
-                <StatusBar barStyle="light-content" translucent />
-                <SafeAreaView style={{ flex: 1 }} edges={["top"]}>
+                <StatusBar barStyle="dark-content" translucent />
+                <SafeAreaView
+                    style={{ flex: 1, backgroundColor: "white" }}
+                    edges={["top"]}
+                >
                     <Routes />
                 </SafeAreaView>
                 {/* <PermissionComponent />
